@@ -1,7 +1,7 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 #include<stdlib.h>
-struct bhosda
+struct dyn
    {
    int data;
    };
@@ -13,7 +13,7 @@ int main()
    printf("\nEnter size of array:");
    scanf("%d",&n);
    printf("\n enter element in array:");
-   struct bhosda *arr=(struct bhosda*)malloc(n*sizeof(struct bhosda));
+   struct dyn *arr=(struct dyn*)malloc(n*sizeof(struct dyn));
    for (int i = 0; i < n; i++) {
         scanf("%d",&arr[i].data);
     }
