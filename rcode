@@ -1,0 +1,18 @@
+#create vector
+a<-c(8,10,4,6,23,5,9,8,5,4,8,7,8)
+#to calculate mean 
+Mean<-mean(a)
+print(Mean)
+#to calculate median 
+sort(a)
+Median<-median(a)
+print(Median)
+#to calculate mode 
+table(a)
+names(sort(-table(a)))
+#to calculate variance
+var(a)
+#to calculate standard deviation
+sd(a)
+#Generic functions
+min(a)
